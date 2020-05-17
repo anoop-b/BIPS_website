@@ -8,32 +8,32 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Start Contributing</>,
+    imageUrl: 'img/btc.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      The Bitcoin Core project operates an open contributor model where 
+      anyone is welcome to contribute towards development in the form of
+      peer review, testing and patches.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Where to begin</>,
+    imageUrl: 'img/b-logo.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+         check out the <Link href="https://github.com/bitcoin/bitcoin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22"> good first issue </Link>
+         or participate in a weekly <Link href="https://bitcoincore.reviews/">Bitcoin Core PR Review Club</Link> meeting.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Contribute</>,
+    imageUrl: 'img/contribute.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Want to make a BIP? This content is open source. Help us improve it.
       </>
     ),
   },
@@ -48,7 +48,7 @@ function Feature({ imageUrl, title, description }) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
+      <h3 className="text--center">{title}</h3>
       <p>{description}</p>
     </div>
   );

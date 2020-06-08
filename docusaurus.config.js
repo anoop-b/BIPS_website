@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Bitcoin Improvement Proposals ',
   tagline: 'Index of all proposals',
-  url: '',
+  url: 'https://anoop-b.github.io',
   baseUrl: '/',
   favicon: 'https://github.com/bitcoin.png',
-  organizationName: 'Bitcoin', // Usually your GitHub org/user name.
-  projectName: 'BIPS', // Usually your repo name.
+  organizationName: 'anoop-b', // Usually your GitHub org/user name.
+  projectName: 'BIPS_website', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'BIPS',

@@ -38,10 +38,10 @@ module.exports = {
               label: 'Getting Started',
               to: 'docs/doc0',
             },
-            // {
-            //   label: 'Second Doc',
-            //   to: 'docs/doc2',
-            // },
+            {
+              label: 'Contribute',
+              to: 'docs/contribute',
+            },
           ],
         },
         {

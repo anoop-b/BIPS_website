@@ -34,7 +34,9 @@ const features = [
     imageUrl: 'img/contribute.svg',
     description: (
       <>
-        Want to make a BIP? This content is open source. Help us improve it.
+        Want to help make changes to the website? This{" "}
+        <Link href="https://github.com/anoop-b/BIPS_website">Project</Link> is
+        open source. Help us improve it.
       </>
     ),
   },

@@ -84,12 +84,11 @@ module.exports = {
           editUrl:
             'https://github.com/anoop-b/BIPS_website/edit/master/',
         },
-        blog: {
-          showReadingTime: true,
-          //TODO: Please change this to your repo.
-          editUrl:
-            'https://github.com/anoop-b/BIPS_website/edit/master/blog/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl:
+        //     'https://github.com/anoop-b/BIPS_website/edit/master/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

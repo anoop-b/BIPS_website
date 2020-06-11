@@ -23,8 +23,9 @@ const features = [
     imageUrl: 'img/b-logo.svg',
     description: (
       <>
-         check out the <Link href="https://github.com/bitcoin/bitcoin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22"> good first issue </Link>
-         or participate in a weekly <Link href="https://bitcoincore.reviews/">Bitcoin Core PR Review Club</Link> meeting.
+        Join the discussion by subscribing to the bitcoin-dev{" "}
+        <Link href="https://github.com/anoop-b/BIPS_website">Mailing list </Link>
+        to get started.
       </>
     ),
   },

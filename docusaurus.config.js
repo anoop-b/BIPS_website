@@ -22,7 +22,7 @@ module.exports = {
         },
         // { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/bitcoin/bips',
+          href: 'https://github.com/anoop-b/BIPS_website',
           label: 'GitHub',
           position: 'right',
         },

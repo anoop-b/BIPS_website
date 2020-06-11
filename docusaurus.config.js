@@ -80,7 +80,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          //TODO: Please change this to your repo.
           editUrl:
             'https://github.com/anoop-b/BIPS_website/edit/master/',
         },
